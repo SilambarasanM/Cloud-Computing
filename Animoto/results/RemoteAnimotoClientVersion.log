@@ -1,0 +1,7 @@
+Retreiving results from SQS
+	https://smadanak.s3.amazonaws.com/video2.mkv?Signature=gSyA6Xox%2FegKU8YvJsVALHE%2BhbQ%3D&Expires=1462012747&AWSAccessKeyId=AKIAJ3HKDS5XX47L7WNA
+	https://smadanak.s3.amazonaws.com/video0.mkv?Signature=cgqkuq37fZwUkqPmR%2BOoQEArxQA%3D&Expires=1462012748&AWSAccessKeyId=AKIAJ3HKDS5XX47L7WNA
+	https://smadanak.s3.amazonaws.com/video1.mkv?Signature=4omgjP72mmPbRAS4nbceqPOhSyQ%3D&Expires=1462012751&AWSAccessKeyId=AKIAJ3HKDS5XX47L7WNA
+All results have been retreived from SQS.
+
+Elapsed: 10784.8491669 ms

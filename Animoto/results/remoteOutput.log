@@ -1,0 +1,40 @@
+[ec2-user@ip-172-31-52-67 ~]$ python Client.py --remote -w tasks_10k.txt
+Elapsed: 182346.6079 ms
+[ec2-user@ip-172-31-52-67 ~]$ python Client.py --remote -w 1worker_10ms.txt
+Elapsed: 22950.361144 ms
+[ec2-user@ip-172-31-52-67 ~]$ python Client.py --remote -w 1worker_1000ms.txt
+Elapsed: 54187.83225 ms
+[ec2-user@ip-172-31-52-67 ~]$ python Client.py --remote -w 1worker_10000ms.txt
+Elapsed: 62853.05763 ms
+[ec2-user@ip-172-31-52-67 ~]$ python Client.py --remote -w tasks_10k.txt
+Elapsed: 165115.639 ms
+[ec2-user@ip-172-31-52-67 ~]$ python Client.py --remote -w 2worker_10ms.txt
+Elapsed: 43208.946629 ms
+[ec2-user@ip-172-31-52-67 ~]$ python Client.py --remote -w 2worker_1000ms.txt
+Elapsed: 56258.96154 ms
+[ec2-user@ip-172-31-52-67 ~]$ python Client.py --remote -w 2worker_10000ms.txt
+Elapsed: 60754.6889936 ms
+[ec2-user@ip-172-31-52-67 ~]$ python Client.py --remote -w tasks_10k.txt
+Elapsed: 163219.1501 ms
+[ec2-user@ip-172-31-52-67 ~]$ python Client.py --remote -w 4worker_10ms.txt
+Elapsed: 75952.697624 ms
+[ec2-user@ip-172-31-52-67 ~]$ python Client.py --remote -w 4worker_1000ms.txt
+Elapsed: 57555.942256 ms
+[ec2-user@ip-172-31-52-67 ~]$ python Client.py --remote -w 4worker_10000ms.txt
+Elapsed: 62741.837668 ms
+[ec2-user@ip-172-31-52-67 ~]$ python Client.py --remote -w tasks_10k.txt
+Elapsed: 162003.084 ms
+[ec2-user@ip-172-31-52-67 ~]$ python Client.py --remote -w 8worker_10ms.txt
+Elapsed: 136750.30364 ms
+[ec2-user@ip-172-31-52-67 ~]$ python Client.py --remote -w 8worker_1000ms.txt
+Elapsed: 58838.546392 ms
+[ec2-user@ip-172-31-52-67 ~]$ python Client.py --remote -w 8worker_10000ms.txt
+Elapsed: 81526.35648 ms
+[ec2-user@ip-172-31-52-67 ~]$ python Client.py --remote -w tasks_10k.txt
+Elapsed: 160999.2422 ms
+[ec2-user@ip-172-31-52-67 ~]$ python Client.py --remote -w 16worker_10ms.txt
+Elapsed: 262998.297742 ms
+[ec2-user@ip-172-31-52-67 ~]$ python Client.py --remote -w 16worker_1000ms.txt
+Elapsed: 57602.718475 ms
+[ec2-user@ip-172-31-52-67 ~]$ python Client.py --remote -w 16worker_10000ms.txt
+Elapsed: 71530.046583 ms

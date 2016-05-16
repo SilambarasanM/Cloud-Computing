@@ -1,0 +1,10 @@
+[ec2-user@ip-172-31-52-67 ~]$ python Client.py --remote -a -w animoto.txt
+Elapsed: 6141.913453 s
+[ec2-user@ip-172-31-52-67 ~]$ python Client.py --remote -a -w animoto.txt
+Elapsed: 1413.879668 s
+[ec2-user@ip-172-31-52-67 ~]$ python Client.py --remote -a -w animoto.txt
+Elapsed: 724.964572 s
+[ec2-user@ip-172-31-52-67 ~]$ python Client.py --remote -a -w animoto.txt
+Elapsed: 366.843168 s
+[ec2-user@ip-172-31-52-67 ~]$ python Client.py --remote -a -w animoto.txt
+Elapsed: 198.170188 s

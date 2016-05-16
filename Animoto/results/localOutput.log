@@ -1,0 +1,50 @@
+[ec2-user@ip-172-31-52-67 ~]$ python Client.py -l -t 1 -w tasks_10k.txt
+Elapsed: 181.5120621 ms
+[ec2-user@ip-172-31-52-67 ~]$ python Client.py -l -t 2 -w tasks_10k.txt
+Elapsed: 179.5889053 ms
+[ec2-user@ip-172-31-52-67 ~]$ python Client.py -l -t 4 -w tasks_10k.txt
+Elapsed: 180.7779713 ms
+[ec2-user@ip-172-31-52-67 ~]$ python Client.py -l -t 8 -w tasks_10k.txt
+Elapsed: 181.0610676 ms
+[ec2-user@ip-172-31-52-67 ~]$ python Client.py -l -t 16 -w tasks_10k.txt
+Elapsed: 181.2758827 ms
+[ec2-user@ip-172-31-52-67 ~]$ python Client.py -l -t 1 -w tasks_100k.txt
+Elapsed: 3037.648916 ms
+[ec2-user@ip-172-31-52-67 ~]$ python Client.py -l -t 2 -w tasks_100k.txt
+Elapsed: 2977.184057 ms
+[ec2-user@ip-172-31-52-67 ~]$ python Client.py -l -t 4 -w tasks_100k.txt
+Elapsed: 3024.518967 ms
+[ec2-user@ip-172-31-52-67 ~]$ python Client.py -l -t 8 -w tasks_100k.txt
+Elapsed: 3040.394068 ms
+[ec2-user@ip-172-31-52-67 ~]$ python Client.py -l -t 16 -w tasks_100k.txt
+Elapsed: 3061.12504 ms
+[ec2-user@ip-172-31-52-67 ~]$ python Client.py -l -t 1 -w 1worker_10ms.txt
+Elapsed: 10188.415335 ms
+[ec2-user@ip-172-31-52-67 ~]$ python Client.py -l -t 1 -w 1worker_1000ms.txt
+Elapsed: 100129.546534 ms
+[ec2-user@ip-172-31-52-67 ~]$ python Client.py -l -t 1 -w 1worker_10000ms.txt
+Elapsed: 100102.42534 ms
+[ec2-user@ip-172-31-52-67 ~]$ python Client.py -l -t 2 -w 2worker_10ms.txt
+Elapsed: 20374.0834589 ms
+[ec2-user@ip-172-31-52-67 ~]$ python Client.py -l -t 2 -w 2worker_1000ms.txt
+Elapsed: 200248.355794 ms
+[ec2-user@ip-172-31-52-67 ~]$ python Client.py -l -t 2 -w 2worker_10000ms.txt
+Elapsed: 200195.45256 ms
+[ec2-user@ip-172-31-52-67 ~]$ python Client.py -l -t 4 -w 4worker_10ms.txt
+Elapsed: 40751.739274 ms
+[ec2-user@ip-172-31-52-67 ~]$ python Client.py -l -t 4 -w 4worker_1000ms.txt
+Elapsed: 400505.859274 ms
+[ec2-user@ip-172-31-52-67 ~]$ python Client.py -l -t 4 -w 4worker_10000ms.txt
+Elapsed: 400409.06549 ms
+[ec2-user@ip-172-31-52-67 ~]$ python Client.py -l -t 8 -w 8worker_10ms.txt
+Elapsed: 81529.79143 ms
+[ec2-user@ip-172-31-52-67 ~]$ python Client.py -l -t 8 -w 8worker_1000ms.txt
+Elapsed: 801039.941045 ms
+[ec2-user@ip-172-31-52-67 ~]$ python Client.py -l -t 8 -w 8worker_10000ms.txt
+Elapsed: 800815.425729 ms
+[ec2-user@ip-172-31-52-67 ~]$ python Client.py -l -t 16 -w 16worker_10ms.txt
+Elapsed: 163134.17184 ms
+[ec2-user@ip-172-31-52-67 ~]$ python Client.py -l -t 16 -w 16worker_1000ms.txt
+Elapsed: 1602086.505629 ms
+[ec2-user@ip-172-31-52-67 ~]$ python Client.py -l -t 16 -w 16worker_10000ms.txt
+Elapsed: 1601633.647732 ms
