@@ -1,9 +1,7 @@
 ### A. REQUIREMENTS
-1. GCC C++Compiler
-2. Make	 
-3. Python 2.7.10
-4. ffmpeg
-5. Pssh
+1. Python 2.7.10
+2. ffmpeg
+3. Pssh
 
 ### B. SETUP
 
